@@ -152,7 +152,7 @@ if option == "Pre Match Prediction":
 # ================================
 elif option == "Live Match Prediction":
 
-    st.header("Live Match Prediction")
+    st.header("Live Match Prediction (Only After the Second Innings Begins)")
 
     batting_team = st.selectbox("Batting Team", teams)
     bowling_team = st.selectbox("Bowling Team", teams)
